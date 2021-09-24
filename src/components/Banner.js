@@ -1,0 +1,15 @@
+//https://www.youtube.com/watch?v=l0JbuMVXaTs&t=393s
+import React from "react";
+
+const Banner = ({ children, title, subtitle }) => {
+  return (
+    <div className="banner">
+      <h1>{title}</h1>
+      <div></div>
+      <p>{subtitle}</p>
+      {children}
+    </div>
+  );
+};
+
+export default Banner;
